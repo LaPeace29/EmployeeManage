@@ -136,17 +136,6 @@ div#input:hover, div#output:hover {
 					</thead>
 					<tbody>
 
-
-						<!-- 						
-						<tr>
-							<td>1</td>
-							<td>서울</td>
-							<td><button type="button"
-									class="btn btn-default btn-xs  btnDelete">삭제</button></td>
-							<td><button type="button"
-									class="btn btn-default btn-xs  btnUpdate">수정</button></td>
-						</tr> 
-						-->
 						<c:forEach var="r" items="${list}">
 							<tr>
 								<td>${r.regId}</td>
@@ -160,7 +149,6 @@ div#input:hover, div#output:hover {
 						</c:forEach>
 					</tbody>
 				</table>
-
 			</div>
 		</div>
 	</div>
